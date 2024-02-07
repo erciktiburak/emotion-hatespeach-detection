@@ -16,7 +16,7 @@ This project aims to implement emotion detection and hate speech detection using
   
 ## Requirements
 - Python 3.x
-- Libraries: NLTK, Scikit-learn, TensorFlow, PyTorch, etc. (specific libraries may vary based on the implementation)
+- Libraries: pysentimiento (A Python toolkit for Sentiment Analysis and Social NLP tasks)
 
 ## Usage
 1. Clone the repository:
@@ -32,6 +32,6 @@ python main.py
 - Emotion Detection: The dataset for emotion detection may include labeled text samples with corresponding emotions such as joy, sadness, anger, etc. Common datasets used for this task include the SemEval-2018 Task 1 dataset, ISEAR dataset, etc.
 - Hate Speech Detection: The dataset for hate speech detection typically consists of labeled text samples with annotations indicating whether the text contains hate speech/offensive language or not. Common datasets for hate speech detection include the Hate Speech and Offensive Language dataset (HateSonar), Twitter Hate Speech Dataset, etc.
 
-## Model Evaluation
+## Model Evaluation (pysentimiento lib provide)
 - Emotion Detection: Evaluation metrics such as accuracy, precision, recall, and F1-score can be used to assess the performance of the emotion detection model.
 - Hate Speech Detection: Evaluation metrics may include accuracy, precision, recall, F1-score, and area under the ROC curve (AUC) for binary classification tasks.
